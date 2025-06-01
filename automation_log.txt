@@ -1,0 +1,12 @@
+2025-06-01 17:30:30 - [LOADING] Executable directory: C:\Users\BSDPCD\source\repos\SkyAuto - Ingles\x64\Debug\
+2025-06-01 17:30:30 - [PROGRESS] Saved resolution loaded: 1920x1200
+2025-06-01 17:30:30 - [LOADING] Coordinates loaded: 20 coordinates
+2025-06-01 17:30:30 - [LOADING] File C:\Users\BSDPCD\source\repos\SkyAuto - Ingles\x64\Debug\accounts.json not found. Creating new...
+2025-06-01 17:30:30 - [ERROR] No accounts registered. Add accounts via the menu.
+2025-06-01 17:30:59 - [PROGRESS] Accounts saved to JSON file: 1 accounts
+2025-06-01 17:31:27 - [PROGRESS] Accounts saved to JSON file: 2 accounts
+2025-06-01 17:54:02 - [LOADING] Executable directory: C:\Users\BSDPCD\source\repos\SkyAuto - Ingles - Console Final\x64\Debug\
+2025-06-01 17:54:02 - [PROGRESS] Saved resolution loaded: 1920x1200
+2025-06-01 17:54:02 - [LOADING] Coordinates loaded: 20 coordinates
+2025-06-01 17:54:02 - [LOADING] Accounts loaded: 0 accounts found
+2025-06-01 17:54:02 - [ERROR] No accounts registered. Add accounts via the menu.

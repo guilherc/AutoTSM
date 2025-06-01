@@ -1,0 +1,447 @@
+2025-05-31 21:51:28 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-05-31 21:51:28 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-05-31 21:51:28 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-05-31 21:51:38 - [PROGRESSO] Iniciando automacao para Conta 1 (guilhercs)
+2025-05-31 21:51:38 - [PROGRESSO] Verificando conexao com a internet
+2025-05-31 21:51:38 - [PROGRESSO] Conexao com internet verificada
+2025-05-31 21:51:41 - [PROGRESSO] Iniciando jogo para Conta 1
+2025-05-31 21:51:45 - [PROGRESSO] Realizando login na Steam
+2025-05-31 21:52:00 - [PROGRESSO] Iniciando jogo Sky
+2025-05-31 21:52:00 - [PROGRESSO] Aguardando inicializacao do jogo
+2025-05-31 21:53:00 - [CARREGAMENTO] Maximizando janela do jogo
+2025-05-31 21:53:06 - [PROGRESSO] Ativado Mod
+2025-05-31 21:53:07 - [PROGRESSO] Iniciado Jogo (Play)
+2025-05-31 21:53:07 - [CARREGAMENTO] Clique em 'iniciar_jogo' - Original: (1296,586) Ajustado: (1296,586)
+2025-05-31 21:53:09 - [CARREGAMENTO] Clique em 'iniciar_jogo' - Original: (1296,586) Ajustado: (1296,586)
+2025-05-31 21:53:11 - [CARREGAMENTO] Clique em 'iniciar_jogo' - Original: (1296,586) Ajustado: (1296,586)
+2025-05-31 21:53:14 - [PROGRESSO] Aguardando...
+2025-05-31 21:54:17 - [PROGRESSO] Completando Missoes Diarias
+2025-05-31 21:54:24 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-05-31 21:54:25 - [ERRO] Janela Sky nao encontrada para ativar
+2025-05-31 21:54:25 - [ERRO] Nao foi possivel ativar a janela para pressionar tecla
+2025-05-31 22:00:22 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-05-31 22:00:22 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-05-31 22:00:22 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-05-31 22:00:32 - [PROGRESSO] Iniciando automacao para Conta 1 (guilhercs)
+2025-05-31 22:00:32 - [PROGRESSO] Verificando conexao com a internet
+2025-05-31 22:00:32 - [PROGRESSO] Conexao com internet verificada
+2025-05-31 22:00:35 - [PROGRESSO] Iniciando jogo para Conta 1
+2025-05-31 22:00:38 - [PROGRESSO] Realizando login na Steam
+2025-05-31 22:00:54 - [PROGRESSO] Iniciando jogo Sky
+2025-05-31 22:00:54 - [PROGRESSO] Aguardando inicializacao do jogo
+2025-05-31 22:01:54 - [CARREGAMENTO] Maximizando janela do jogo
+2025-05-31 22:02:00 - [PROGRESSO] Ativado Mod
+2025-05-31 22:02:01 - [PROGRESSO] Iniciado Jogo (Play)
+2025-05-31 22:02:01 - [CARREGAMENTO] Clique em 'iniciar_jogo' - Original: (1296,586) Ajustado: (1296,586)
+2025-05-31 22:02:03 - [CARREGAMENTO] Clique em 'iniciar_jogo' - Original: (1296,586) Ajustado: (1296,586)
+2025-05-31 22:02:05 - [CARREGAMENTO] Clique em 'iniciar_jogo' - Original: (1296,586) Ajustado: (1296,586)
+2025-05-31 22:02:08 - [PROGRESSO] Aguardando...
+2025-05-31 22:03:11 - [PROGRESSO] Completando Missoes Diarias
+2025-05-31 22:03:19 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-05-31 22:03:19 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-05-31 22:03:45 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-05-31 22:03:45 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-05-31 22:03:50 - [PROGRESSO] Coletando Velas das Missoes Diarias
+2025-05-31 22:03:52 - [CARREGAMENTO] Pressionando tecla 'R'
+2025-05-31 22:03:53 - [CARREGAMENTO] Pressionando tecla 'R'
+2025-05-31 22:04:03 - [PROGRESSO] Candle Run em Progresso
+2025-05-31 22:04:06 - [PROGRESSO] Candle Run - Iniciando
+2025-05-31 22:04:08 - [PROGRESSO] Candle Run - Em progresso
+2025-05-31 22:22:44 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-05-31 22:22:44 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-05-31 22:22:44 - [CARREGAMENTO] Contas carregadas: 15 contas encontradas
+2025-05-31 22:23:16 - [PROGRESSO] INICIANDO CONTA: Conta 2
+2025-05-31 22:23:16 - [PROGRESSO] Iniciando automacao para Conta 2 (guilhercs2)
+2025-05-31 22:23:16 - [PROGRESSO] Verificando conexao com a internet
+2025-05-31 22:23:16 - [PROGRESSO] Conexao com internet verificada
+2025-05-31 22:23:20 - [PROGRESSO] Iniciando jogo para Conta 2
+2025-05-31 22:23:23 - [PROGRESSO] Realizando login na Steam
+2025-05-31 22:23:38 - [PROGRESSO] Iniciando jogo Sky
+2025-05-31 22:23:38 - [PROGRESSO] Aguardando inicializacao do jogo
+2025-05-31 22:24:38 - [CARREGAMENTO] Maximizando janela do jogo
+2025-05-31 22:24:44 - [PROGRESSO] Ativado Mod
+2025-05-31 22:24:46 - [PROGRESSO] Iniciado Jogo (Play)
+2025-05-31 22:24:46 - [CARREGAMENTO] Clique em 'iniciar_jogo' - Original: (1296,586) Ajustado: (1052,439)
+2025-05-31 22:24:48 - [CARREGAMENTO] Clique em 'iniciar_jogo' - Original: (1296,586) Ajustado: (1052,439)
+2025-05-31 22:24:50 - [CARREGAMENTO] Clique em 'iniciar_jogo' - Original: (1296,586) Ajustado: (1052,439)
+2025-05-31 22:24:52 - [PROGRESSO] Aguardando...
+2025-05-31 22:25:55 - [PROGRESSO] Doando Coracoes
+2025-05-31 22:26:14 - [PROGRESSO] Completando Missoes Diarias
+2025-05-31 22:26:22 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-05-31 22:26:22 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-05-31 22:26:41 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-05-31 22:26:42 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-05-31 22:26:47 - [PROGRESSO] Coletando Velas das Missoes Diarias
+2025-05-31 22:26:49 - [CARREGAMENTO] Pressionando tecla 'R'
+2025-05-31 22:26:49 - [CARREGAMENTO] Pressionando tecla 'R'
+2025-05-31 22:26:59 - [PROGRESSO] Candle Run em Progresso
+2025-05-31 22:27:03 - [PROGRESSO] Candle Run - Iniciando
+2025-05-31 22:27:04 - [PROGRESSO] Candle Run - Em progresso
+2025-05-31 22:27:29 - [ERRO] Janela Sky nao identificada
+2025-05-31 22:27:29 - [ERRO] Janela inativa - Tentativa 1/2
+2025-05-31 22:27:34 - [ERRO] Processo Sky.exe foi fechado - Marcando para reiniciar
+2025-05-31 22:27:34 - [PROGRESSO] Coletando Velas
+2025-06-01 09:47:08 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 09:47:08 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 09:47:08 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 09:47:15 - [PROGRESSO] Iniciando automacao para Conta 2 (guilhercs2)
+2025-06-01 09:47:15 - [PROGRESSO] Verificando conexao com a internet
+2025-06-01 09:47:15 - [PROGRESSO] Conexao com internet verificada
+2025-06-01 09:47:19 - [PROGRESSO] Iniciando jogo para Conta 2
+2025-06-01 09:47:22 - [PROGRESSO] Realizando login na Steam
+2025-06-01 09:47:37 - [PROGRESSO] Iniciando jogo Sky
+2025-06-01 09:47:37 - [PROGRESSO] Aguardando inicializacao do jogo
+2025-06-01 09:48:49 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 09:48:49 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 09:48:49 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 09:48:54 - [PROGRESSO] Iniciando automacao para Conta 2 (guilhercs2)
+2025-06-01 09:48:54 - [PROGRESSO] Verificando conexao com a internet
+2025-06-01 09:48:54 - [PROGRESSO] Conexao com internet verificada
+2025-06-01 09:48:58 - [PROGRESSO] Iniciando jogo para Conta 2
+2025-06-01 09:49:01 - [PROGRESSO] Realizando login na Steam
+2025-06-01 09:49:16 - [PROGRESSO] Iniciando jogo Sky
+2025-06-01 09:49:16 - [CARREGAMENTO] Aguardando janela do Sky estar pronta
+2025-06-01 09:49:16 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:17 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:18 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:19 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:20 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:21 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:22 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:23 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:24 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:25 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:26 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:27 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:28 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:30 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:31 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:32 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:33 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:34 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 09:49:35 - [CARREGAMENTO] Janela Sky pronta
+2025-06-01 09:49:35 - [CARREGAMENTO] Maximizando janela do jogo
+2025-06-01 09:49:43 - [PROGRESSO] Ativado Mod
+2025-06-01 09:49:49 - [PROGRESSO] Iniciado Jogo (Play)
+2025-06-01 09:49:49 - [CARREGAMENTO] Pressionando tecla ' '
+2025-06-01 09:49:49 - [CARREGAMENTO] Pressionando tecla ' '
+2025-06-01 09:49:50 - [CARREGAMENTO] Pressionando tecla ' '
+2025-06-01 09:49:50 - [PROGRESSO] Aguardando carregamento do jogo...
+2025-06-01 09:50:53 - [PROGRESSO] Doando Coracoes
+2025-06-01 09:51:12 - [PROGRESSO] Completando Missoes Diarias
+2025-06-01 09:51:20 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 09:51:21 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 09:51:39 - [PROGRESSO] Coletando Velas das Missoes Diarias
+2025-06-01 09:51:40 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 09:51:40 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 09:51:50 - [PROGRESSO] Candle Run - Em progresso
+2025-06-01 14:03:24 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 14:03:24 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 14:03:24 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 14:14:51 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 14:14:51 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 14:14:51 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 14:15:19 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 14:15:19 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 14:15:19 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 14:17:48 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 14:17:48 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 14:17:48 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 14:18:06 - [PROGRESSO] INICIANDO CONTA: Conta 1
+2025-06-01 14:18:06 - [PROGRESSO] Iniciando automacao para Conta 1 (guilhercs)
+2025-06-01 14:18:06 - [PROGRESSO] Verificando conexao com a internet
+2025-06-01 14:18:06 - [PROGRESSO] Conexao com internet verificada
+2025-06-01 14:18:10 - [PROGRESSO] Iniciando jogo para Conta 1
+2025-06-01 14:19:38 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 14:19:38 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 14:19:38 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 14:20:02 - [PROGRESSO] INICIANDO CONTA: Conta 1
+2025-06-01 14:20:02 - [PROGRESSO] Iniciando automacao para Conta 1 (guilhercs)
+2025-06-01 14:20:02 - [PROGRESSO] Verificando conexao com a internet
+2025-06-01 14:20:02 - [PROGRESSO] Conexao com internet verificada
+2025-06-01 14:20:05 - [PROGRESSO] Iniciando jogo para Conta 1
+2025-06-01 14:20:09 - [PROGRESSO] Realizando login na Steam
+2025-06-01 14:20:24 - [PROGRESSO] Iniciando jogo Sky
+2025-06-01 14:20:24 - [CARREGAMENTO] Aguardando janela do Sky estar pronta
+2025-06-01 14:20:24 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:25 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:26 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:27 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:28 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:29 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:30 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:31 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:32 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:33 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:34 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:35 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:36 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:37 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:38 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:39 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:40 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:41 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:42 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:43 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:44 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:45 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:46 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:47 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:48 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:49 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:50 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:51 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:52 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:53 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:54 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:55 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:56 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:57 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:58 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:20:59 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:21:00 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:21:01 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:21:02 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:21:03 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:21:04 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:21:05 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:21:06 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:21:07 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 14:21:36 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 14:21:36 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 14:21:36 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 14:25:10 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 14:25:10 - [PROGRESSO] Nenhuma resolução salva encontrada. Usando padrão: 1920x1200
+2025-06-01 14:25:10 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 14:25:10 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 14:26:25 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 14:26:25 - [PROGRESSO] Nenhuma resolução salva encontrada. Usando padrão: 1920x1200
+2025-06-01 14:26:25 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 14:26:25 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 14:31:42 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 14:31:42 - [PROGRESSO] Nenhuma resolução salva encontrada. Usando padrão: 1920x1200
+2025-06-01 14:31:42 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 14:31:42 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 14:35:08 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 14:35:08 - [PROGRESSO] Nenhuma resolução salva encontrada. Usando padrão: 1920x1200
+2025-06-01 14:35:08 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 14:35:08 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 14:35:47 - [PROGRESSO] Parando todos os processos...
+2025-06-01 14:46:55 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 14:46:55 - [PROGRESSO] Nenhuma resolução salva encontrada. Usando padrão: 1920x1200
+2025-06-01 14:46:55 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 14:46:55 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 14:47:01 - [PROGRESSO] Resolução salva em coordenadas.json: 1920x1200
+2025-06-01 14:47:13 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 14:47:13 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 14:47:13 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 14:47:13 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 14:47:20 - [PROGRESSO] Resolução salva em coordenadas.json: 1920x1200
+2025-06-01 15:21:31 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 15:21:31 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 15:21:31 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 15:21:31 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 15:27:42 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 15:27:42 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 15:27:42 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 15:27:42 - [CARREGAMENTO] Contas carregadas: 16 contas encontradas
+2025-06-01 16:23:56 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 16:23:56 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 16:23:56 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 16:23:56 - [CARREGAMENTO] Arquivo C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\contas.json não encontrado. Criando novo...
+2025-06-01 16:23:56 - [ERRO] Nenhuma conta cadastrada. Adicione contas pelo menu.
+2025-06-01 16:24:39 - [PROGRESSO] Contas salvas no arquivo JSON: 1 contas
+2025-06-01 16:25:04 - [PROGRESSO] Iniciando automacao para Teste (guilhercs16)
+2025-06-01 16:25:04 - [PROGRESSO] Verificando conexao com a internet
+2025-06-01 16:25:04 - [PROGRESSO] Conexao com internet verificada
+2025-06-01 16:25:08 - [PROGRESSO] Iniciando jogo para Teste
+2025-06-01 16:25:11 - [PROGRESSO] Realizando login na Steam
+2025-06-01 16:25:26 - [PROGRESSO] Iniciando jogo Sky
+2025-06-01 16:25:26 - [CARREGAMENTO] Aguardando janela do Sky estar pronta
+2025-06-01 16:25:26 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:27 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:28 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:29 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:30 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:31 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:32 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:33 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:34 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:35 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:36 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:37 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:38 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:39 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:40 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:41 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:25:42 - [CARREGAMENTO] Janela Sky pronta
+2025-06-01 16:25:42 - [CARREGAMENTO] Maximizando janela do jogo
+2025-06-01 16:25:55 - [PROGRESSO] Ativado Mod
+2025-06-01 16:26:01 - [PROGRESSO] Iniciado Jogo (Play)
+2025-06-01 16:26:01 - [CARREGAMENTO] Pressionando tecla ' '
+2025-06-01 16:26:01 - [CARREGAMENTO] Pressionando tecla ' '
+2025-06-01 16:26:01 - [CARREGAMENTO] Pressionando tecla ' '
+2025-06-01 16:26:02 - [PROGRESSO] Aguardando carregamento do jogo...
+2025-06-01 16:27:56 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 16:27:56 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 16:27:56 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 16:27:56 - [CARREGAMENTO] Contas carregadas: 0 contas encontradas
+2025-06-01 16:27:56 - [ERRO] Nenhuma conta cadastrada. Adicione contas pelo menu.
+2025-06-01 16:28:51 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 16:28:51 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 16:28:51 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 16:28:51 - [CARREGAMENTO] Contas carregadas: 1 contas encontradas
+2025-06-01 16:28:55 - [PROGRESSO] Iniciando automacao para Teste (guilhercs16)
+2025-06-01 16:28:55 - [PROGRESSO] Verificando conexao com a internet
+2025-06-01 16:28:55 - [PROGRESSO] Conexao com internet verificada
+2025-06-01 16:29:05 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 16:29:05 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 16:29:05 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 16:29:05 - [CARREGAMENTO] Contas carregadas: 1 contas encontradas
+2025-06-01 16:29:08 - [PROGRESSO] Iniciando automacao para Teste (guilhercs16)
+2025-06-01 16:29:08 - [PROGRESSO] Verificando conexao com a internet
+2025-06-01 16:29:08 - [PROGRESSO] Conexao com internet verificada
+2025-06-01 16:29:12 - [PROGRESSO] Iniciando jogo para Teste
+2025-06-01 16:29:15 - [PROGRESSO] Realizando login na Steam
+2025-06-01 16:29:30 - [PROGRESSO] Iniciando jogo Sky
+2025-06-01 16:29:30 - [CARREGAMENTO] Aguardando janela do Sky estar pronta
+2025-06-01 16:29:30 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:31 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:32 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:33 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:34 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:35 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:36 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:37 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:38 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:39 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:40 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:41 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:42 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:43 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:44 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:45 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:46 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:47 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:48 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:29:49 - [CARREGAMENTO] Janela Sky pronta
+2025-06-01 16:29:49 - [CARREGAMENTO] Maximizando janela do jogo
+2025-06-01 16:30:03 - [PROGRESSO] Ativado Mod
+2025-06-01 16:30:14 - [PROGRESSO] Iniciado Jogo (Play)
+2025-06-01 16:30:14 - [CARREGAMENTO] Pressionando tecla ' '
+2025-06-01 16:30:14 - [CARREGAMENTO] Pressionando tecla ' '
+2025-06-01 16:30:14 - [CARREGAMENTO] Pressionando tecla ' '
+2025-06-01 16:30:15 - [PROGRESSO] Aguardando carregamento do jogo...
+2025-06-01 16:31:18 - [PROGRESSO] Doando Coracoes
+2025-06-01 16:31:37 - [PROGRESSO] Completando Missoes Diarias
+2025-06-01 16:31:45 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 16:31:45 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 16:32:04 - [PROGRESSO] Coletando Velas das Missoes Diarias
+2025-06-01 16:32:04 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 16:32:05 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 16:32:15 - [PROGRESSO] Candle Run - Em progresso
+2025-06-01 16:32:25 - [ERRO] Janela inativa - Tentativa 1/2
+2025-06-01 16:32:28 - [CARREGAMENTO] Janela reativada com sucesso
+2025-06-01 16:32:33 - [ERRO] Janela inativa - Tentativa 1/2
+2025-06-01 16:32:37 - [CARREGAMENTO] Janela reativada com sucesso
+2025-06-01 16:32:42 - [ERRO] Janela Sky nao identificada
+2025-06-01 16:32:42 - [ERRO] Janela inativa - Tentativa 1/2
+2025-06-01 16:32:47 - [ERRO] Janela Sky nao identificada
+2025-06-01 16:32:47 - [ERRO] Janela inativa - Tentativa 2/2
+2025-06-01 16:32:47 - [ERRO] Maximo de tentativas atingido - Verificando se jogo foi fechado
+2025-06-01 16:32:47 - [ERRO] Janela inativa mas processo ainda existe - Forcando reinicio
+2025-06-01 16:32:48 - [ERRO] Janela Sky nao encontrada para ativar
+2025-06-01 16:32:48 - [ERRO] Nao foi possivel esconder o mod - janela nao ativa
+2025-06-01 16:32:48 - [PROGRESSO] Coletando Velas
+2025-06-01 16:32:51 - [ERRO] Janela Sky nao encontrada para ativar
+2025-06-01 16:32:51 - [ERRO] Nao foi possivel pressionar R - janela nao ativa
+2025-06-01 16:33:01 - [PROGRESSO] Reiniciando fluxo para Teste apos fechamento do jogo
+2025-06-01 16:33:01 - [PROGRESSO] Verificando conexao com a internet
+2025-06-01 16:33:01 - [PROGRESSO] Conexao com internet verificada
+2025-06-01 16:50:29 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 16:50:29 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 16:50:29 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 16:50:29 - [CARREGAMENTO] Contas carregadas: 1 contas encontradas
+2025-06-01 16:50:38 - [PROGRESSO] Iniciando automacao para Teste (guilhercs16)
+2025-06-01 16:50:38 - [PROGRESSO] Verificando conexao com a internet
+2025-06-01 16:50:49 - [PROGRESSO] Conexao com internet verificada
+2025-06-01 16:50:53 - [PROGRESSO] Iniciando jogo para Teste
+2025-06-01 16:50:56 - [PROGRESSO] Realizando login na Steam
+2025-06-01 16:53:52 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 16:53:52 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 16:53:52 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 16:53:52 - [CARREGAMENTO] Contas carregadas: 1 contas encontradas
+2025-06-01 16:53:58 - [PROGRESSO] Iniciando automacao para Teste (guilhercs16)
+2025-06-01 16:53:58 - [PROGRESSO] Verificando conexao com a internet
+2025-06-01 16:54:52 - [PROGRESSO] Conexao com internet verificada
+2025-06-01 16:54:55 - [PROGRESSO] Iniciando jogo para Teste
+2025-06-01 16:54:58 - [PROGRESSO] Realizando login na Steam
+2025-06-01 16:56:22 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 16:56:22 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 16:56:22 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 16:56:22 - [CARREGAMENTO] Contas carregadas: 1 contas encontradas
+2025-06-01 16:56:45 - [PROGRESSO] Contas salvas no arquivo JSON: 2 contas
+2025-06-01 16:57:50 - [PROGRESSO] Iniciando automacao para Conta 1 (guilhercs)
+2025-06-01 16:57:50 - [PROGRESSO] Verificando conexao com a internet
+2025-06-01 16:57:54 - [PROGRESSO] Conexao com internet verificada
+2025-06-01 16:57:58 - [PROGRESSO] Iniciando jogo para Conta 1
+2025-06-01 16:58:01 - [PROGRESSO] Realizando login na Steam
+2025-06-01 16:58:16 - [PROGRESSO] Iniciando jogo Sky
+2025-06-01 16:58:16 - [CARREGAMENTO] Aguardando janela do Sky estar pronta
+2025-06-01 16:58:16 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:17 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:18 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:19 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:20 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:21 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:22 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:23 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:24 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:25 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:26 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:27 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:28 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:29 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:30 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:31 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:32 - [CARREGAMENTO] Janela Sky não encontrada
+2025-06-01 16:58:33 - [CARREGAMENTO] Janela Sky pronta
+2025-06-01 16:58:33 - [CARREGAMENTO] Maximizando janela do jogo
+2025-06-01 16:58:47 - [PROGRESSO] Ativado Mod
+2025-06-01 16:58:58 - [PROGRESSO] Iniciado Jogo (Play)
+2025-06-01 16:58:58 - [CARREGAMENTO] Pressionando tecla ' '
+2025-06-01 16:58:59 - [CARREGAMENTO] Pressionando tecla ' '
+2025-06-01 16:58:59 - [CARREGAMENTO] Pressionando tecla ' '
+2025-06-01 16:58:59 - [PROGRESSO] Aguardando carregamento do jogo...
+2025-06-01 17:00:02 - [PROGRESSO] Completando Missoes Diarias
+2025-06-01 17:00:09 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 17:00:10 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 17:00:15 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 17:00:16 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 17:00:30 - [PROGRESSO] Coletando Velas das Missoes Diarias
+2025-06-01 17:00:30 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 17:00:31 - [CARREGAMENTO] Pressionando tecla 'F'
+2025-06-01 17:00:40 - [PROGRESSO] Candle Run - Em progresso
+2025-06-01 17:02:36 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 17:02:36 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 17:02:36 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 17:02:36 - [CARREGAMENTO] Contas carregadas: 1 contas encontradas
+2025-06-01 17:03:03 - [PROGRESSO] Contas salvas no arquivo JSON: 2 contas
+2025-06-01 17:04:28 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 17:04:28 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 17:04:28 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 17:04:28 - [CARREGAMENTO] Contas carregadas: 1 contas encontradas
+2025-06-01 17:05:28 - [PROGRESSO] Contas salvas no arquivo JSON: 2 contas
+2025-06-01 17:07:21 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 17:07:21 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 17:07:21 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 17:07:21 - [CARREGAMENTO] Contas carregadas: 2 contas encontradas
+2025-06-01 17:07:58 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 17:07:58 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 17:07:58 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 17:07:58 - [CARREGAMENTO] Contas carregadas: 2 contas encontradas
+2025-06-01 17:08:23 - [PROGRESSO] Contas salvas no arquivo JSON: 3 contas
+2025-06-01 17:08:37 - [CARREGAMENTO] Diretorio do executavel: C:\Users\BSDPCD\source\repos\SkyAuto\x64\Debug\
+2025-06-01 17:08:37 - [PROGRESSO] Resolução salva carregada: 1920x1200
+2025-06-01 17:08:37 - [CARREGAMENTO] Coordenadas carregadas: 20 coordenadas
+2025-06-01 17:08:37 - [CARREGAMENTO] Contas carregadas: 2 contas encontradas

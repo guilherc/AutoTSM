@@ -1,0 +1,12 @@
+{
+    "agendamentos": [
+        {
+            "ativo": true,
+            "descricao": "Ciclo 1-16",
+            "hora": 4,
+            "minuto": 0,
+            "recorrente": false,
+            "ultima_execucao": 0
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+  
+  "resolucao_original": {
+        "largura": 1920,
+        "altura": 1080
+    },
+
+  "coordenadas": {
+        "iniciar_jogo": {
+            "x": 960,
+            "y": 540,
+            "descricao": "Botão Play no centro"
+    },
+    "clique_aleatorio_jogo_0": {
+      "x": 1296,
+      "y": 586,
+      "descricao": "Clique Aleatorio Jogo 0"
+    },
+    
+    "ativando_mod": {
+      "x": 84,
+      "y": 158,
+      "descricao": "Ativando Mod"
+
+    },
+    "social": {
+      "x": 126,
+      "y": 205,
+      "descricao": "Social"
+    },
+    "proibir_teletransporte": {
+      "x": 213,
+      "y": 250,
+      "descricao": "Proibir Teletransporte"
+    },
+    "amigo_1": {
+      "x": 222,
+      "y": 322,
+      "descricao": "Amigo 1"
+    },
+    "enviar_luz_amigo_1": {
+      "x": 279,
+      "y": 459,
+      "descricao": "Enviar Luz Amigo 1"
+    },
+    "doar_coracao_amigo_1": {
+      "x": 361,
+      "y": 458,
+      "descricao": "Doar Coração Amigo 1"
+    },
+    "clique_aleatorio_social_1": {
+      "x": 588,
+      "y": 410,
+      "descricao": "Clique aleatorio Social 1"
+    },
+    "amigo_2": {
+      "x": 230,
+      "y": 343,
+      "descricao": "Amigo 2"
+    },
+    "doar_luz_amigo_2": {
+      "x": 278,
+      "y": 476,
+      "descricao": "Doar Luz Amigo 2"
+    },
+    "doar_coracao_amigo_2": {
+      "x": 357,
+      "y": 477,
+      "descricao": "Doar Coração Amigo 2"
+    },
+    "clique_aleatorio_social_2": {
+      "x": 588,
+      "y": 410,
+      "descricao": "Clique aleatorio Social 2"
+    },
+    "teletransporte": {
+      "x": 120,
+      "y": 240,
+      "descricao": "Teletransporte"
+    },
+    "personalizado": {
+      "x": 450,
+      "y": 140,
+      "descricao": "Personalizado"
+    },
+    "coordenada_personalizada": {
+      "x": 250,
+      "y": 300,
+      "descricao": "Coordenada Personalizada"
+    },
+    "clique_aleatorio_jogo_1": {
+      "x": 1296,
+      "y": 586,
+      "descricao": "Clique aleatorio Jogo 1"
+    },
+    "desbloqueios": {
+      "x": 121,
+      "y": 313,
+      "descricao": "Desbloqueios"
+    },
+    "completar_missoes_diarias": {
+      "x": 426,
+      "y": 308,
+      "descricao": "Completar Missoes Diarias"
+    },
+    "clique_aleatorio_jogo_2": {
+      "x": 1296,
+      "y": 586,
+      "descricao": "Clique Aleatorio Jogo 2"
+    },
+    "progressao": {
+      "x": 125,
+      "y": 337,
+      "descricao": "Progressao"
+    },
+    "iniciar_coleta_automatica_cera": {
+      "x": 226,
+      "y": 281,
+      "descricao": "Iniciar Coleta automatica de Cera"
+    },
+    "comecar_do_inicio": {
+      "x": 347,
+      "y": 295,
+      "descricao": "Comecar do Inicio"
+    }
+  }
+}
