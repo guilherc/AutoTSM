@@ -4,3 +4,13 @@
 2025-06-02 21:51:22 - [LOADING] Accounts loaded: 0 accounts found
 2025-06-02 21:51:22 - [ERROR] No accounts registered. Add accounts through the menu.
 2025-06-02 21:51:42 - [PROGRESS] Accounts saved to JSON file: 1 accounts
+2025-06-02 21:59:13 - [LOADING] Executable directory: C:\Users\BSDPCD\source\repos\AutoTSM\x64\Debug\
+2025-06-02 21:59:13 - [PROGRESS] Saved resolution loaded: 1920x1200
+2025-06-02 21:59:13 - [LOADING] Coordinates loaded: 20 coordinates
+2025-06-02 21:59:13 - [LOADING] Accounts loaded: 1 accounts found
+2025-06-02 21:59:26 - [PROGRESS] STARTING ACCOUNT: Test
+2025-06-02 21:59:26 - [PROGRESS] Starting automation for Test (Test)
+2025-06-02 21:59:26 - [PROGRESS] Checking internet connection
+2025-06-02 21:59:26 - [PROGRESS] Internet connection verified
+2025-06-02 21:59:30 - [PROGRESS] Starting game for Test
+2025-06-02 21:59:33 - [PROGRESS] Logging into Steam

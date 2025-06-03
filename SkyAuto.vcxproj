@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="include\json.hpp" />
     <ClInclude Include="json_fwd.hpp" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="resource4.h" />
   </ItemGroup>
   <ItemGroup>
