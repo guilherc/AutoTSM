@@ -9,7 +9,7 @@ Open the project in Visual Studio Community 2022.
 
 Set the build configuration to Release or Debug (x64 recommended).
 
-Ensure the following JSON files are in the same folder as the executable:
+Make sure the following JSON files are in the same folder as the executable:
 
 coordinates.json
 
@@ -18,6 +18,15 @@ accounts.json
 schedules.json
 
 Compile and run the application.
+
+Dependencies
+This project requires:
+
+Visual Studio 2022 with C++ and Windows SDK support installed.
+
+The json.hpp header from the nlohmann/json library, which is included in the include folder of this repository. No additional installation is necessary.
+
+Windows API libraries such as shlwapi.lib (linked automatically by the compiler).
 
 Usage
 Start the program and follow the console menu.
@@ -53,4 +62,3 @@ This software is for educational purposes only. Use responsibly and respect the 
 
 Contact
 Developer: Scr1p7
-
