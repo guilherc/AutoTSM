@@ -1,81 +1,74 @@
-MOD That Sky Game
-Game: Sky: Children of the Light (Steam version)
+# AutoTSM - Automation Tool for Sky: Children of the Light (Steam mod)
 
-Installation
+**Game:** Sky: Children of the Light (Steam version)  
+**Automation tool executable:** AutoTSM.exe (in the `x64\Debug` folder)
 
-Clone the repository:
-git clone https://github.com/guilherc/AutoTSM.git
+---
 
-Open the project in Visual Studio Community 2022.
+## For Users: How to use the tool
 
-Set the build configuration to Release or Debug (x64 recommended).
+1. Download the executable `AutoTSM.exe` along with the JSON files that are in the same `x64\Debug` folder.
 
-Make sure the following JSON files are in the same folder as the executable:
+2. Also download the JSON files from the `resources` folder.
 
-coordinates.json
+3. Keep the JSON files from the `x64\Debug` folder in the same location as the `AutoTSM.exe` executable.
 
-accounts.json
+4. Copy the JSON files from the `resources` folder to the game folders, as shown below:
 
-schedules.json
+   - Copy `TSM.json` to:  
+     `C:\Program Files (x86)\Steam\steamapps\common\Sky Children of the Light\mods\TSM Resources`
 
-Compile and run the application. The executable will be located in the Debug folder inside the project directory.
+   - Copy `Stone.json` to:  
+     `C:\Program Files (x86)\Steam\steamapps\common\Sky Children of the Light\mods\TSM Resources\Teleport Locations`
 
-Important files for the game
+5. To use, just run the `AutoTSM.exe` executable. No installation or additional setup required.
 
-The repository contains two important files inside the AutoTSM\resources folder that need to be copied to the game folders:
+---
 
-Copy TSM.json from AutoTSM\resources to:
-C:\Program Files (x86)\Steam\steamapps\common\Sky Children of the Light\mods\TSM Resources
+## For Developers: How to build and contribute
 
-Copy Stone.json from AutoTSM\resources to:
-C:\Program Files (x86)\Steam\steamapps\common\Sky Children of the Light\mods\TSM Resources\Teleport Locations
+### Build
 
-Dependencies
+1. Clone the repository:  
+   `git clone https://github.com/guilherc/AutoTSM.git`
 
-This project requires:
+2. Open the project in Visual Studio Community 2022.
 
-Visual Studio 2022 with C++ and Windows SDK support installed.
+3. Set build configuration to Release or Debug (x64 recommended).
 
-The json.hpp header from the nlohmann/json library, which is included in the include folder of this repository. No additional installation is necessary.
+4. Build the project. The `AutoTSM.exe` executable will be created in the `x64\Debug` folder.
 
-Windows API libraries such as shlwapi.lib (linked automatically by the compiler).
+### Dependencies
 
-Usage
+- Visual Studio 2022 with C++ and Windows SDK support.  
+- `json.hpp` from [nlohmann/json](https://github.com/nlohmann/json), included in the repo.  
+- Windows API libraries (linked automatically).
 
-Start the program and follow the console menu.
+### How to contribute
 
-Set your screen resolution in the Options menu.
+1. Fork the repository.  
+2. Create a branch for your feature:  
+   `git checkout -b feature/new-interface`  
+3. Commit your changes with a clear message:  
+   `git commit -m "Add graphical interface with Qt"`  
+4. Submit a Pull Request.
 
-Add Steam accounts through the "Manage Accounts" menu.
+See the Contribution Guide for more details.
 
-Use the menu to start automation or configure schedules.
+---
 
-How to Contribute
+## License
 
-We welcome contributions to improve this project, especially to develop a graphical interface (e.g., using Qt, ImGui, or similar).
+This project is licensed under the MIT License. See LICENSE file for details.
 
-To contribute:
+---
 
-Fork the repository.
+## Disclaimer
 
-Create a new branch for your feature:
-git checkout -b feature/new-interface
+This software is for educational purposes only. Use responsibly and respect the terms of Sky: Children of the Light.
 
-Commit your changes with a clear message:
-git commit -m "Add graphical interface with Qt"
+---
 
-Submit a Pull Request.
-
-Please read the Contribution Guide for more details.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Disclaimer
-
-This software is for educational purposes only. Use responsibly and respect the terms of service of the game Sky: Children of the Light.
-
-Contact
+## Contact
 
 Developer: Scr1p7
