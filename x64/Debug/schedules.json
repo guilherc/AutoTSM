@@ -1,0 +1,12 @@
+{
+    "schedules": [
+        {
+            "active": true,
+            "description": "test",
+            "hour": 4,
+            "last_execution": 0,
+            "minute": 0,
+            "recurring": false
+        }
+    ]
+}

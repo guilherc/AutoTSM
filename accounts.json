@@ -1,18 +1,11 @@
 {
     "accounts": [
         {
-            "friend_count": 1,
-            "heart_donor": true,
-            "name": "test1",
-            "password": "dfdsdfsdf",
-            "username": "Teste1"
-        },
-        {
             "friend_count": 2,
             "heart_donor": true,
-            "name": "teste2",
-            "password": "dsffsfdsf",
-            "username": "test2"
+            "name": "Heart Donor 1",
+            "password": "SteFocSegPer1!",
+            "username": "guilhercs2"
         }
     ]
 }

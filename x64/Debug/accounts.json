@@ -1,1 +1,11 @@
-{"accounts":[]}
+{
+    "accounts": [
+        {
+            "friend_count": 0,
+            "heart_donor": false,
+            "name": "Test",
+            "password": "sadsadas",
+            "username": "Test"
+        }
+    ]
+}
