@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AUTO TSM - Automação para TSM (Sky)
 
 **AUTO TSM** é um programa em C++ que automatiza tarefas no MOD That Sky Game - TSM (by XeTrinityz) para o jogo *Sky: Children of the Light*, como coleta de velas, missões diárias e gerenciamento de contas Steam. Este projeto está em desenvolvimento e busca colaboradores para implementar uma interface gráfica amigável.
@@ -50,6 +49,3 @@ Este software é apenas para fins educacionais. Use com responsabilidade e respe
 
 ## Contato
 Desenvolvedor: Scr1p7
-=======
-# AutoSML
->>>>>>> dd0c74b (Initial commit)
