@@ -1,44 +1,24 @@
 {
-    
-        "friend_2": {
-            "description": "Friend 2",
-            "x": 230,
-            "y": 343
-        },
+    "coordinates": {
         "activating_mod": {
             "description": "Activating Mod",
             "x": 84,
             "y": 158
-        },
-        "random_game_click": {
-            "description": "Random Game Click",
-            "x": 1296,
-            "y": 587
-        },
-        "random_social_click": {
-            "description": "Random Social Click",
-            "x": 588,
-            "y": 410
-        },
-        "start_candle_run_from_beginning": {
-            "description": "Start Candle Run from Beginning",
-            "x": 347,
-            "y": 295
         },
         "complete_daily_missions": {
             "description": "Complete Daily Missions",
             "x": 426,
             "y": 308
         },
+        "custom": {
+            "description": "Custom",
+            "x": 450,
+            "y": 140
+        },
         "custom_coordinate": {
             "description": "Custom Coordinate",
             "x": 250,
             "y": 300
-        },
-        "unlocks": {
-            "description": "Unlocks",
-            "x": 121,
-            "y": 313
         },
         "donate_heart_friend_1": {
             "description": "Donate Heart Friend 1",
@@ -55,25 +35,10 @@
             "x": 278,
             "y": 476
         },
-        "send_light_friend_1": {
-            "description": "Send Light Friend 1",
-            "x": 279,
-            "y": 459
-        },
-        "start_automatic_wax_collection": {
-            "description": "Start Automatic Wax Collection",
-            "x": 226,
-            "y": 281
-        },
-        "start_game": {
-            "description": "Start Game",
-            "x": 1296,
-            "y": 586
-        },
-        "custom": {
-            "description": "Custom",
-            "x": 450,
-            "y": 140
+        "friend_2": {
+            "description": "Friend 2",
+            "x": 230,
+            "y": 343
         },
         "progression": {
             "description": "Progression",
@@ -85,19 +50,50 @@
             "x": 213,
             "y": 250
         },
+        "random_game_click": {
+            "description": "Random Game Click",
+            "x": 1296,
+            "y": 587
+        },
+        "random_social_click": {
+            "description": "Random Social Click",
+            "x": 588,
+            "y": 410
+        },
+        "send_light_friend_1": {
+            "description": "Send Light Friend 1",
+            "x": 279,
+            "y": 459
+        },
         "social": {
             "description": "Social",
             "x": 126,
             "y": 205
         },
+        "start_automatic_wax_collection": {
+            "description": "Start Automatic Wax Collection",
+            "x": 226,
+            "y": 281
+        },
+        "start_candle_run_from_beginning": {
+            "description": "Start Candle Run from Beginning",
+            "x": 347,
+            "y": 295
+        },
+        "start_game": {
+            "description": "Start Game",
+            "x": 1296,
+            "y": 586
+        },
         "teleport": {
             "description": "Teleport",
             "x": 120,
             "y": 240
+        },
+        "unlocks": {
+            "description": "Unlocks",
+            "x": 121,
+            "y": 313
         }
-    },
-    "saved_resolution": {
-        "height": 1200,
-        "width": 1920
     }
 }
