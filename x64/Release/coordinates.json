@@ -1,10 +1,5 @@
 {
-    "coordinates": {
-        "friend_1": {
-            "description": "Friend 1",
-            "x": 222,
-            "y": 322
-        },
+    
         "friend_2": {
             "description": "Friend 2",
             "x": 230,
