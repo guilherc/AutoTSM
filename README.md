@@ -1,4 +1,4 @@
-# AutoTSM - Automation Tool for Sky: Children of the Light (Steam mod)
+# AutoTSM - Automation Tool for TSM (That Sky Mod) for the game Sky: Children of the Light (Steam mod)
 
 **Game:** Sky: Children of the Light (Steam version)  
 **Automation tool executable:** AutoTSM.exe (in the `x64\Debug` folder)
