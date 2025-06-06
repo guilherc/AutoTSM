@@ -1,5 +1,12 @@
 {
     "coordinates": {
+
+        "loading_screen_check": {
+            "x": 400,
+            "y": 1120,
+            "description": "Pixel to check for black loading screen"
+        },
+        
         "activating_mod": {
             "description": "Activating Mod",
             "x": 84,

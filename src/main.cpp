@@ -31,6 +31,8 @@ using json = nlohmann::json;
 #include <shlwapi.h>
 #pragma comment(lib, "shlwapi.lib")
 
+
+
 std::string get_log_path();
 void ensure_log_directory_exists();
 
@@ -147,6 +149,29 @@ struct Coordinate {
     int y;
     std::string description;
 };
+
+std::string wstring_to_string(const std::wstring& wstr) {
+    if (wstr.empty()) {
+        return std::string();
+    }
+
+    // Determine required size for converted string
+    int size_needed = WideCharToMultiByte(CP_UTF8, 0, wstr.c_str(), (int)wstr.size(), nullptr, 0, nullptr, nullptr);
+    if (size_needed == 0) {
+        log_error("Error determining size for wstring to string conversion");
+        return std::string();
+    }
+
+    // Allocate buffer for converted string
+    std::string str(size_needed, 0);
+    int result = WideCharToMultiByte(CP_UTF8, 0, wstr.c_str(), (int)wstr.size(), &str[0], size_needed, nullptr, nullptr);
+    if (result == 0) {
+        log_error("Error converting wstring to string");
+        return std::string();
+    }
+
+    return str;
+}
 
 // Global variable to store coordinates (NOW DECLARED BEFORE FUNCTIONS THAT USE IT)
 std::map<std::string, Coordinate> coordinates;
@@ -654,8 +679,14 @@ bool is_window_active(HWND hwnd) {
 }
 
 void maximize_window(HWND hwnd) {
+    if (hwnd == nullptr) {
+        log_error("Invalid window handle in maximize_window");
+        return;
+    }
     ShowWindow(hwnd, SW_MAXIMIZE);
-    std::this_thread::sleep_for(std::chrono::seconds(1));
+    SetForegroundWindow(hwnd); // Ensure window is brought to front
+    log_load("Window maximized successfully");    
+    std::this_thread::sleep_for(std::chrono::seconds(10));
 }
 
 bool sky_window_active() {
@@ -730,9 +761,9 @@ int random_range(int min, int max) {
 }
 
 // Human mouse movement between two points
-void precise_click(int dest_x, int dest_y, int steps = 50, int duration_ms = 500) {
+void precise_click(int x, int y, int steps = 50, int duration_ms = 500) {
     POINT current_pos;
-    GetCursorPos(&current_pos);
+    GetCursorPos(&current_pos); // Corrigido: removido caractere inválido ¤t_pos
     int start_x = current_pos.x;
     int start_y = current_pos.y;
 
@@ -751,15 +782,15 @@ void precise_click(int dest_x, int dest_y, int steps = 50, int duration_ms = 500
         int rand_offset_x = (i % 5 == 0) ? random_range(-3, 3) : 0;
         int rand_offset_y = (i % 7 == 0) ? random_range(-3, 3) : 0;
 
-        int x = start_x + static_cast<int>((dest_x - start_x) * t) + rand_offset_x;
-        int y = start_y + static_cast<int>((dest_y - start_y) * t) + rand_offset_y;
+        int x_pos = start_x + static_cast<int>((x - start_x) * t) + rand_offset_x;
+        int y_pos = start_y + static_cast<int>((y - start_y) * t) + rand_offset_y;
 
-        SetCursorPos(x, y);
+        SetCursorPos(x_pos, y_pos);
         std::this_thread::sleep_for(std::chrono::milliseconds(duration_ms / steps));
     }
 
     // Ensure we reach final destination
-    SetCursorPos(dest_x, dest_y);
+    SetCursorPos(x, y);
 
     // Small pause after movement
     std::this_thread::sleep_for(std::chrono::milliseconds(random_range(50, 200)));
@@ -806,13 +837,15 @@ void receive_hearts() {
     std::this_thread::sleep_for(std::chrono::milliseconds(random_range(400, 600)));
 }
 
-void disable_teleport() {
+void prohibit_teleport() {
     precise_click(coordinates["social"].x, coordinates["social"].y);
     human_click();
+    std::this_thread::sleep_for(std::chrono::seconds(15));
     std::this_thread::sleep_for(std::chrono::milliseconds(random_range(400, 600)));
-    precise_click(coordinates["disable_teleport"].x, coordinates["disable_teleport"].y);
+    precise_click(coordinates["prohibit_teleport"].x, coordinates["prohibit_teleport"].y);
     human_click();
     std::this_thread::sleep_for(std::chrono::milliseconds(random_range(400, 600)));
+    
 }
 
 void donate_hearts() {
@@ -832,7 +865,7 @@ void donate_hearts() {
     human_click();
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
-    precise_click(coordinates["random_click_social"].x, coordinates["random_click_social"].y);
+    precise_click(coordinates["random_social_click"].x, coordinates["random_social_click"].y);
     human_click();
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
 }
@@ -854,7 +887,7 @@ void donate_hearts_2() {
     human_click();
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
-    precise_click(coordinates["random_click_social"].x, coordinates["random_click_social"].y);
+    precise_click(coordinates["random_social_click"].x, coordinates["random_social_click"].y);
     human_click();
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
@@ -870,7 +903,7 @@ void donate_hearts_2() {
     human_click();
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
-    precise_click(coordinates["random_click_social"].x, coordinates["random_click_social"].y);
+    precise_click(coordinates["random_social_click"].x, coordinates["random_social_click"].y);
     human_click();
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
 }
@@ -921,7 +954,7 @@ void press_key(int key, int duration_ms = 50) {  // Now accepts int (char or VK_
     {'R', {VK_R, SCANCODE_R}},
     {'r', {VK_R, SCANCODE_R}},
     {' ', {VK_SPACE, 0x39}},  // Space (scancode 0x39)
-    {0x01, {VK_HOME, 0x47}}   // Home (scancode 0x47, using fictional char 0x01)
+    {VK_HOME, {VK_HOME, 0x47}}   // Home (scancode 0x47, using fictional char 0x01)
     };
 
     auto it = key_mapping.find(key);
@@ -968,7 +1001,9 @@ void collect_daily_quests() {
     human_click();
     std::this_thread::sleep_for(std::chrono::milliseconds(random_range(400, 600)));
 
-    precise_click(coordinates["random_click_game"].x, coordinates["random_click_game"].y);
+    std::this_thread::sleep_for(std::chrono::seconds(5));
+
+    precise_click(coordinates["random_game_click"].x, coordinates["random_game_click"].y);
     human_click();
     std::this_thread::sleep_for(std::chrono::milliseconds(random_range(400, 600)));
 
@@ -992,7 +1027,7 @@ void complete_daily_quests() {
     human_click();
     std::this_thread::sleep_for(std::chrono::milliseconds(random_range(400, 600)));
 
-    precise_click(coordinates["complete_daily_quests"].x, coordinates["complete_daily_quests"].y);
+    precise_click(coordinates["complete_daily_missions"].x, coordinates["complete_daily_missions"].y);
     human_click();
     std::this_thread::sleep_for(std::chrono::seconds(10));
 }
@@ -1022,7 +1057,7 @@ void receive_candles_quests() {
 
 void receive_candles() {
     std::this_thread::sleep_for(std::chrono::milliseconds(random_range(400, 600)));
-    precise_click(coordinates["random_click_game"].x, coordinates["random_click_game"].y);
+    precise_click(coordinates["random_game_click"].x, coordinates["random_game_click"].y);
     human_click();
     std::this_thread::sleep_for(std::chrono::milliseconds(random_range(400, 600)));
 
@@ -1040,6 +1075,18 @@ void receive_candles() {
     std::this_thread::sleep_for(std::chrono::seconds(10));
 }
 
+void hide_mod() {
+    HWND hwnd = find_window_by_title(L"Sky");
+    if (ensure_window_active(hwnd)) {
+        // Press Home key
+        press_key(VK_HOME, 50);
+        std::this_thread::sleep_for(std::chrono::milliseconds(random_range(100, 300)));
+    }
+    else {
+        log_error("Could not hide mod - window not active");
+    }
+}
+
 bool restart_game_in_progress = false;
 
 void start_candle_run(const std::string& account_name) {
@@ -1050,6 +1097,7 @@ void start_candle_run(const std::string& account_name) {
     precise_click(coordinates["start_candle_run_from_beginning"].x, coordinates["start_candle_run_from_beginning"].y);
     human_click();
     show_progress("Candle Run - In progress");
+    hide_mod();
 
     const int total_time = 15 * 60;
     const int interval = 5;
@@ -1120,55 +1168,26 @@ void start_candle_run(const std::string& account_name) {
     }
 }
 
-void precise_click(int x, int y, const std::string& point_name, int delay_min = 400, int delay_max = 600) {
+
+// Função para verificar pixel preto
+bool is_pixel_black(int x, int y, int tolerance = 10) {
     auto adjusted = adjust_coordinates(x, y);
+    HDC hdc = GetDC(NULL);
+    COLORREF color = GetPixel(hdc, adjusted.first, adjusted.second);
+    ReleaseDC(NULL, hdc);
 
-    log_load("Click at '" + point_name + "' - Original: (" +
-        std::to_string(x) + "," + std::to_string(y) +
-        ") Adjusted: (" + std::to_string(adjusted.first) + "," +
-        std::to_string(adjusted.second) + ")");
+    int r = GetRValue(color);
+    int g = GetGValue(color);
+    int b = GetBValue(color);
 
-    human_mouse_move(adjusted.first, adjusted.second); // Separate movement
-    human_click(); // Separate click
-
-    std::this_thread::sleep_for(std::chrono::milliseconds(random_range(delay_min, delay_max)));
+    // Check if color is within tolerance of black (RGB: 0, 0, 0)
+    return (r >= 0 && r <= tolerance) &&
+        (g >= 0 && g <= tolerance) &&
+        (b >= 0 && b <= tolerance);
 }
 
-void hide_mod() {
-    HWND hwnd = find_window_by_title(L"Sky");
-    if (ensure_window_active(hwnd)) {
-        // Press Home key
-        press_key(0x01, 50);
-        std::this_thread::sleep_for(std::chrono::milliseconds(random_range(100, 300)));
-    }
-    else {
-        log_error("Could not hide mod - window not active");
-    }
-}
 
-std::string wstring_to_string(const std::wstring& wstr) {
-    if (wstr.empty()) {
-        return std::string();
-    }
-
-    // Determine required size for converted string
-    int size_needed = WideCharToMultiByte(CP_UTF8, 0, wstr.c_str(), (int)wstr.size(), nullptr, 0, nullptr, nullptr);
-    if (size_needed == 0) {
-        log_error("Error determining size for wstring to string conversion");
-        return std::string();
-    }
-
-    // Allocate buffer for converted string
-    std::string str(size_needed, 0);
-    int result = WideCharToMultiByte(CP_UTF8, 0, wstr.c_str(), (int)wstr.size(), &str[0], size_needed, nullptr, nullptr);
-    if (result == 0) {
-        log_error("Error converting wstring to string");
-        return std::string();
-    }
-
-    return str;
-}
-
+// Função start_game corrigida
 void start_game(const std::string& name, const std::string& user, const std::string& password) {
     show_progress("Starting game for " + name);
     close_game();
@@ -1181,9 +1200,8 @@ void start_game(const std::string& name, const std::string& user, const std::str
 
         std::this_thread::sleep_for(std::chrono::seconds(15));
 
-        std::string command;
         show_progress("Starting Sky game");
-        command = "start steam://rungameid/2325290";
+        std::string command = "start steam://rungameid/2325290";
         system(command.c_str());
     }
     catch (...) {
@@ -1226,7 +1244,7 @@ void start_game(const std::string& name, const std::string& user, const std::str
 
     log_load("Maximizing game window");
     maximize_window(hwnd);
-    std::this_thread::sleep_for(std::chrono::seconds(10));
+    
 
     show_progress("Activating Mod");
     precise_click(coordinates["activating_mod"].x, coordinates["activating_mod"].y);
@@ -1245,8 +1263,38 @@ void start_game(const std::string& name, const std::string& user, const std::str
             log_error("Could not press space - window not active");
         }
 
-        show_progress("Waiting for game to load...");
-        std::this_thread::sleep_for(std::chrono::seconds(60));
+        // Wait for loading screen (black pixel) to disappear
+        show_progress("Waiting for game to load ...");
+        const int max_wait_loading = 300; // 5 minutes max wait
+        const int check_interval = 1000; // Check every second
+        int wait_time = 0;
+        bool is_loading = true;
+
+        while (is_loading && wait_time < max_wait_loading * 1000) {
+            if (is_pixel_black(400, 1120)) {
+                log_load("Loading screen still present");
+            }
+            else {
+                log_load("Loading screen gone");
+                is_loading = false;
+            }
+            std::this_thread::sleep_for(std::chrono::milliseconds(check_interval));
+            wait_time += check_interval;
+
+            // Check if stopped
+            if (stop_global_flag) {
+                log_error("Game loading interrupted by stop flag");
+                return;
+            }
+        }
+
+        if (is_loading) {
+            log_error("Timeout waiting for black pixel to disappear");
+            throw std::runtime_error("Game loading timeout");
+        }
+
+        // Additional small pause after loading
+        std::this_thread::sleep_for(std::chrono::seconds(5));
 
         // Find account to check heart_donor and friend_count
         auto it = std::find_if(accounts.begin(), accounts.end(),
@@ -1256,8 +1304,7 @@ void start_game(const std::string& name, const std::string& user, const std::str
             throw std::runtime_error("Account not found");
         }
 
-        disable_teleport();
-
+        // Execute heart donation or prohibit teleport based on account type
         if (it->heart_donor && it->friend_count >= 1 && it->friend_count <= 10) {
             show_progress("Donating Hearts");
             switch (it->friend_count) {
@@ -1273,9 +1320,13 @@ void start_game(const std::string& name, const std::string& user, const std::str
             case 10: donate_hearts_10(); break;
             }
         }
+        else {
+            show_progress("Prohibiting Teleport");
+            prohibit_teleport();
+        }
 
-        if (name == "Account 1") {
-            //receive_hearts();
+        if (name == "Main") {
+            receive_hearts();
             show_progress("Completing Daily Quests");
             collect_daily_quests();
             press_key('F', random_range(30, 80));
@@ -1287,7 +1338,6 @@ void start_game(const std::string& name, const std::string& user, const std::str
             receive_candles_quests();
             access_progression_menu();
             start_candle_run(name);
-            hide_mod();
             show_progress("Collecting Candles");
             receive_candles();
         }
@@ -1299,7 +1349,6 @@ void start_game(const std::string& name, const std::string& user, const std::str
             receive_candles_quests();
             access_progression_menu();
             start_candle_run(name);
-            hide_mod();
             show_progress("Collecting Candles");
             receive_candles();
         }
