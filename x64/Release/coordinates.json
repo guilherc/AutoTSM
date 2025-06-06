@@ -1,12 +1,5 @@
 {
     "coordinates": {
-
-        "loading_screen_check": {
-            "x": 400,
-            "y": 1120,
-            "description": "Pixel to check for black loading screen"
-        },
-        
         "activating_mod": {
             "description": "Activating Mod",
             "x": 84,
@@ -47,6 +40,11 @@
             "x": 230,
             "y": 343
         },
+        "loading_screen_check": {
+            "description": "Pixel to check for black loading screen",
+            "x": 400,
+            "y": 1120
+        },
         "progression": {
             "description": "Progression",
             "x": 125,
@@ -56,6 +54,11 @@
             "description": "Prohibit Teleport",
             "x": 213,
             "y": 250
+        },
+        "receive_hearts": {
+            "description": "Receive Hearts",
+            "x": 570,
+            "y": 222
         },
         "random_game_click": {
             "description": "Random Game Click",
@@ -102,5 +105,9 @@
             "x": 121,
             "y": 313
         }
+    },
+    "saved_resolution": {
+        "height": 1200,
+        "width": 1920
     }
 }
