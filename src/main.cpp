@@ -1518,7 +1518,8 @@ void header() {
 
 void list_accounts() {
     header();
-    std::cout << "---------------- ACCOUNT LIST -----------------\n";
+    std::cout << "---------------- ACCOUNT LIST -----------------\n\n";
+
 
     for (size_t i = 0; i < accounts.size(); i++) {
         // Account number (2 digits, right aligned)
@@ -1990,6 +1991,7 @@ void accounts_menu() {
     do {
         header();
         std::cout << ">> MANAGE ACCOUNTS <<\n\n";
+        std::cout << ">> Name the account as Main if you want to collect received hearts. <<\n\n";
         std::cout << "1. Add account\n";
         std::cout << "2. Remove account\n";
         std::cout << "3. List accounts\n";
