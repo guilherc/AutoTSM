@@ -1,17 +1,17 @@
 # AutoTSM - Automation Tool for TSM (That Sky Mod) for the game Sky: Children of the Light (Steam mod)
 
 **Game:** Sky: Children of the Light (Steam version)  
-**Automation tool executable:** AutoTSM.exe (in the `x64\Debug` folder)
+**Automation tool executable:** AutoTSM.exe (in the `x64\Release` folder)
 
 ---
 
 ## For Users: How to use the tool
 
-1. Download the executable `AutoTSM.exe` along with the JSON files that are in the same `x64\Debug` folder.
+1. Download the executable `AutoTSM.exe` along with the JSON files that are in the same `x64\Release` folder.
 
 2. Also download the JSON files from the `resources` folder.
 
-3. Keep the JSON files from the `x64\Debug` folder in the same location as the `AutoTSM.exe` executable.
+3. Keep the JSON files from the `x64\Release` folder in the same location as the `AutoTSM.exe` executable.
 
 4. Copy the JSON files from the `resources` folder to the game folders, as shown below:
 
@@ -36,7 +36,7 @@
 
 3. Set build configuration to Release or Debug (x64 recommended).
 
-4. Build the project. The `AutoTSM.exe` executable will be created in the `x64\Debug` folder.
+4. Build the project. The `AutoTSM.exe` executable will be created in the `x64\Release` folder.
 
 ### Dependencies
 
