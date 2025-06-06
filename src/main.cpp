@@ -1305,7 +1305,7 @@ void start_game(const std::string& name, const std::string& user, const std::str
         }
 
         // Execute heart donation or prohibit teleport based on account type
-        if (it->heart_donor && it->friend_count >= 1 && it->friend_count <= 10) {
+        if (it->heart_donor && it->friend_count >= 1 && it->friend_count <= 2) {
             show_progress("Donating Hearts");
             switch (it->friend_count) {
             case 1: donate_hearts(); break;
@@ -1326,8 +1326,7 @@ void start_game(const std::string& name, const std::string& user, const std::str
         }
 
         if (name == "Main") {
-            show_progress("Prohibiting Teleport");
-            prohibit_teleport();
+            
             receive_hearts();
             show_progress("Completing Daily Quests");
             collect_daily_quests();
@@ -1931,6 +1930,7 @@ void sequential_general_cycle() {
 
     general_cycle_running = false;
     show_progress("SEQUENTIAL GENERAL CYCLE COMPLETED");
+    std::exit(0);
 }
 
 // Thread to check schedules
