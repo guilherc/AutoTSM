@@ -895,7 +895,7 @@ void donate_hearts_2() {
     human_click();
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
-    precise_click(coordinates["donate_light_friend_2"].x, coordinates["donate_light_friend_2"].y);
+    precise_click(coordinates["send_light_friend_2"].x, coordinates["send_light_friend_2"].y);
     human_click();
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
@@ -1326,6 +1326,8 @@ void start_game(const std::string& name, const std::string& user, const std::str
         }
 
         if (name == "Main") {
+            show_progress("Prohibiting Teleport");
+            prohibit_teleport();
             receive_hearts();
             show_progress("Completing Daily Quests");
             collect_daily_quests();
@@ -1342,6 +1344,8 @@ void start_game(const std::string& name, const std::string& user, const std::str
             receive_candles();
         }
         else {
+            show_progress("Prohibiting Teleport");
+            prohibit_teleport();
             show_progress("Completing Daily Quests");
             collect_daily_quests();
             complete_daily_quests();

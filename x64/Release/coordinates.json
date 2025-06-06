@@ -30,10 +30,15 @@
             "x": 357,
             "y": 477
         },
-        "donate_light_friend_2": {
-            "description": "Donate Light Friend 2",
+        "send_light_friend_2": {
+            "description": "Send Light Friend 2",
             "x": 278,
             "y": 476
+        },
+        "friend_1": {
+            "description": "Friend 1",
+            "x": 250,
+            "y": 319
         },
         "friend_2": {
             "description": "Friend 2",
@@ -105,5 +110,9 @@
             "x": 121,
             "y": 313
         }
+    },
+    "saved_resolution": {
+        "height": 1200,
+        "width": 1920
     }
 }
