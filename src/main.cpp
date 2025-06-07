@@ -1340,6 +1340,7 @@ void start_game(const std::string& name, const std::string& user, const std::str
             access_progression_menu();
             start_candle_run(name);
             show_progress("Collecting Candles");
+            complete_daily_quests();
             receive_candles();
         }
         else {
